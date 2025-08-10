@@ -1,2 +1,2 @@
-# arkana-cahaya-terakhir2
-Game RPG Arkana: Cahaya Terakhir dengan AI Oracles dan sistem auto-update
+# Arkana: Cahaya Terakhir
+Repo game HTML5 (GDevelop) dengan sistem build, release, manifest, dan auto-update.

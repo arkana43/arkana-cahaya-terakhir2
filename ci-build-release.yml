@@ -1,0 +1,17 @@
+name: CI Build & Release
+on:
+  push:
+    branches: [ main, 'release/*' ]
+  workflow_dispatch: {}
+
+jobs:
+  build-html5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Build HTML5
+        run: echo "Building HTML5 project..."
